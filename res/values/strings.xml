@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Manifest Analyzer</string>
+    <string name="analyze">Analyze</string>
+    <string name="activity">Activity</string>
+    <string name="intent_filter">Intent Filter</string>
+    <string name="uses_permission">Uses Permission</string>
+    <string name="application">Application</string>
+    <string name="uses_sdk">Uses SDK</string>
+    <string name="receiver">Receiver</string>
+    <string name="service">Service</string>
+    <string name="provider">Provider</string>
+    <string name="meta_data">Meta Data</string>
+</resources>

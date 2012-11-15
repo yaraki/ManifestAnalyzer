@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical">
+	<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<ImageView android:src="@drawable/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/application_icon" android:padding="5dp" android:layout_marginRight="5dp"/>
+		<LinearLayout android:id="@+id/linearLayout1" android:layout_height="fill_parent" android:orientation="vertical" android:layout_width="fill_parent">
+			<TextView android:layout_width="fill_parent" android:text="TextView" android:textSize="20dp" android:id="@+id/application_label" android:layout_height="wrap_content" android:layout_gravity="center_vertical"></TextView>
+			<TextView android:layout_width="fill_parent" android:text="TextView" android:id="@+id/package_name" android:layout_height="wrap_content"></TextView>
+		</LinearLayout>
+	</LinearLayout>
+	<ListView android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/manifest_list"></ListView>
+</LinearLayout>

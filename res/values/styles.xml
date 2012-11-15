@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="item_title">
+        <item name="@android:background">#99F</item>
+        <item name="@android:textColor">#000</item>
+        <item name="@android:textStyle">bold</item>
+        <item name="@android:paddingLeft">5dp</item>
+    </style>
+</resources>

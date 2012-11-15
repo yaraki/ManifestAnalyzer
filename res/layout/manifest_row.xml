@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:orientation="vertical">
+    <TextView android:text="TextView" android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/item_title" style="@style/item_title"></TextView>
+    <TextView android:layout_width="fill_parent" android:text="TextView" android:layout_height="wrap_content" android:id="@+id/item_name" android:textSize="20dp" android:paddingLeft="10dp"></TextView>
+    <TextView android:text="TextView" android:id="@+id/item_description" android:layout_height="wrap_content" android:layout_width="fill_parent" android:paddingLeft="10dp"></TextView>
+</LinearLayout>
